@@ -18,6 +18,7 @@ main {
     background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
     color: white;
     padding: 20px;
+    border-radius: 10px 10px 0 0;
 }
 
 .header--image {
@@ -42,7 +43,14 @@ main {
     margin-bottom: 17px;
 }
 
+label{
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
 .form--input {
+    font-size: 20px;
     font-family: "Karla", sans-serif;
     border-radius: 5px;
     border: 1px solid #D5D4D8;
@@ -50,6 +58,8 @@ main {
 }
 
 .form--button {
+    font-size: 20px;
+    font-weight: bold;
     grid-column: 1 / -1;
     font-family: "Karla", sans-serif;
     border-radius: 5px;
@@ -60,6 +70,9 @@ main {
 }
 
 .meme {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     position: relative;
 }
 
