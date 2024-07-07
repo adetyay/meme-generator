@@ -4,7 +4,7 @@ export default function Meme() {
     const [meme, setMeme] = React.useState({
         topText: "",
         bottomText: "",
-        randomImage: "http://i.imgflip.com/1bij.jpg" 
+        randomImage: "https://i.imgflip.com/39t1o.jpg" 
     })
     const [allMemes, setAllMemes] = React.useState([])
     

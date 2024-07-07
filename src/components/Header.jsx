@@ -8,7 +8,8 @@ export default function Header() {
                 className="header--image"
             />
             <h2 className="header--title">Meme Generator</h2>
-            <h4 className="header--project">React Course - Project 3</h4>
+            <a href="https://github.com/adityax4" target="_blank"><i className="fa-brands fa-github"></i></a>
+            {/* <h4 className="header--project">React Course - Project 3</h4> */}
         </header>
     )
 }
